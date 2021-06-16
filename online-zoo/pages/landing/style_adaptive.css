@@ -1,0 +1,1281 @@
+@media screen and (max-width: 1919px) and (min-width: 1200px){
+  .container{
+    width: 1200px;
+  }
+  .header{
+    padding: 30px 100px;
+  }
+  .nav{
+    width: 481px;
+    margin-right: 81px;
+  }
+  .watch-online{
+    padding: 135px 0px 100px 40px;
+    background-image: url(../../../online-zoo/assests/images/watch_animals_1200.png);
+    bottom: 35px;
+    right: 0;
+    
+    height: auto;
+  }
+  .watch-online__heading{
+    padding-bottom: 10px;
+  }
+  .watch-online__paragraph{
+    width: 339px;
+    padding-bottom: 26px;
+  }
+  .watch-online__vector {
+    padding-left: 10px;
+  }
+
+  .about{
+    height: auto;
+    padding: 66px 100px 0;
+    margin-bottom: 77px;
+  }
+  .about__welcom{
+    padding-bottom: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .about__welcom-image{
+    margin-bottom: 30px;
+    width: 660px;
+  }
+  .about__welcom-image img{
+    width: 100%;
+  }
+  .about__welcom-text h5{
+    padding-bottom: 30px;
+  }
+  .about__work{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .about__work-image{
+    margin-bottom: 10px;
+    width: 660px;
+  }
+  .about__work-image img{
+    width: 100%;
+  }
+  .about__work-text h5 {
+    padding-bottom: 30px;
+  }
+  .about__work-text{
+    margin-right: 100px;
+  }
+
+  .donation{
+    height: auto;
+    padding: 50px 100px;
+    align-items: end;
+  }
+  .donation__text{
+    width: 577px;
+  }
+  .donation__text h5{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .donation__text p{
+    width: 100%;
+  }
+  .quick-form {
+    height: 74px;
+    width: 329px;
+  }
+  .quick-form__input{
+    height: 70px;
+  }
+  .quick-form__btn {
+    height: 74px;
+    width: 87px;
+  }
+  .quick-form::after {
+    top: 27px;
+  }
+
+  .meet-friends{
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  .meet-friends__text{
+    width: 830px;
+    padding-left: 0px;
+  }
+  .meet-friends__text h5{
+    padding-bottom: 30px;
+    margin-left: 99px;
+  }
+  .meet-friends__text p{
+    text-align: center;
+  }
+  .meet-friends__btns{
+    padding-bottom: 30px;
+  }
+  .slides{
+    margin: 0 0 29px 40px;
+  }
+  .slide-animal{
+    width: 455px;
+    height: 716px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .slide-animal__img {
+    width: 455px;
+    height: 436px;
+    border-radius: 5px 5px 0 0;
+  }
+  .slide-animal__about{
+    width: 395px;
+    margin: 14px 30px 0;
+  }
+  .slide-animal__about p {
+    width: 395px;
+  }
+  .slide-animal__btn {
+    left: 124px;
+    bottom: 35px;
+  }
+  .slide-animal__vector {
+    padding-left: 18px;
+  }
+  .favorite-animal{
+    width: 100%;
+  }
+
+  .feed-animals {
+    margin: 0 ;
+    padding-top: 150px;
+  }
+  .feed-animals__heading {
+    margin-left: 100px;
+    margin-bottom: 99px;
+  }
+  .feed-animals__list{
+    margin: 0 40px;
+    margin-bottom: 5px; 
+  }
+  .feed-animal__container{
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  .feed-animal__container2 {
+    margin-top: 61px;
+  }
+  .feed-animal__container3{
+    margin-top: 28px;
+  }
+  .feed-animal__variant{
+    margin-bottom: 82px;
+  }
+  .variant__logo {
+    height: 82px;
+    width: 99px;
+  }
+  .variant__logo2{
+    margin-top: 56px;
+  }
+  .variant__logo3{
+    padding-top: 50px;
+  }
+  .variant-line {
+    width: 1025px ;
+  }
+  .feed-animals__picture{
+    width: 550px;
+    height: 358px;
+    padding: 32px 0 0 0;
+    margin-right: 20px;
+  }
+  .feed-animals__img {
+    width: 100%;
+    height: 100%;
+  }
+  .variant__text-container {
+    width: 549px;
+    padding-top: 0;
+    text-align: center;
+  }
+  .variant__heading{
+    padding-bottom: 30px;
+    width: 545px;
+  }
+  .variant__text {
+    margin-bottom: 0px;
+    width: auto;
+  }
+  .feed-animal__variant:last-of-type .variant__text {
+    margin-bottom: 118px;
+  }
+  .variant__btn{
+    width: 270px;
+    height: 76px;
+    margin-bottom: 0px;
+    margin-left: 610px;
+    padding-left: 48px;
+  }
+  .feed-amimal__vector {
+    padding-left: 18px;
+  }
+
+  .feedback{
+    padding-left: 40px;
+    background-position: bottom;
+  }
+  .feedback__elipses{
+    display: none;
+  }
+  .feedback__users{
+    display:block;
+    margin-bottom: 97px;
+  }
+  .cards{
+    padding-bottom: 69px;
+  }
+  .feedback-text {
+    width: 577px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .feedback-text h4{
+    padding-bottom: 30px;
+  }
+  .feedback-text p {
+    width: 577px;
+  }
+  .feedback-users__cards{
+    margin-left: 70px;
+  }
+  .feedback-buttons {
+    padding-left: 870px;
+  }
+  .leave-feedback {
+    margin-left: 96px;
+  }
+
+  .care{
+    padding: 150px 0 0 ;
+    height: auto;
+    margin-bottom: 148px;
+  }
+  .care__heading{
+    width: 655px;
+    padding-bottom: 30px;
+    margin: 0 295px;
+  }
+  .care__text {
+    width: 537px;
+    padding-bottom: 47px;
+    padding-left: 118px;
+  }
+  .care-cards{
+    width: 950px;
+    margin: 0 115px 81px 135px;
+  }
+  .unique-card{
+    margin-bottom: 20px;
+  }
+  .unique-card__img {
+    width: 930px;
+    height: 470px;
+    margin-right: 40px;
+    transform: scale(-1,1);
+    object-fit: cover;
+  }
+  .care__card{
+    width: 455px;
+    height: 641px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  .care-card__img{
+    width: 100%;
+    height: 373px;
+  }
+  .care-image {
+    width: 1200px;
+    height: 668px;
+  }
+  .care-image img{
+    width: 1200px;
+    height: 668px;
+  }
+  .care-card__order-tiger{
+    order: 0;
+  }
+  .care-card__order-eagle{
+    order: 0;
+  }
+  .care__elipses{
+    display: none;
+  }
+  
+
+  .footer{
+    padding: 0 40px;
+  }
+  .footer-logos {
+    width: 343px;
+  }
+  .footer-navigation {
+    width: 346px;
+    margin-left: 28px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 640px){
+  .container{
+    width: 640px;
+  }
+  .header{
+    padding: 30px 20px;
+    width: 640px;
+    position: fixed;
+  }
+  #header-toggle{
+    display: none;
+  }
+  .nav{
+    display: none;
+  }
+  .social-media{
+    display: none;
+  }
+  .header-menu{
+    display: block;
+    margin-right: 29px;
+    margin-top: 1px;
+  }
+
+  .watch-online{
+    background-color: #fff;
+    width: 640px;
+    height: 100%;
+    padding: 158px 0px 50px 20px;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90.7deg, #FFFFFF 23.04%, rgba(255, 255, 255, 0) 62.81%), 
+        linear-gradient(180.96deg, #FFFFFF 0.2%, rgba(255, 255, 255, 0) 5.62%), 
+        linear-gradient(219.86deg, #FFFFFF 0.49%, rgba(255, 255, 255, 0) 6.78%), 
+        linear-gradient(141.69deg, #FFFFFF 13.5%, rgba(247, 247, 247, 0) 22.24%), 
+        url(../../../online-zoo/assests/images/watch_animals_1200.png);
+    background-size: contain;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+  }
+  .watch-online__text{
+    width: 600px;
+  }
+  .watch-online__heading{
+    font-size: 72px;
+    line-height: 88px;
+    padding-bottom: 14px;
+  }
+  .watch-online__paragraph{
+    width: 339px;
+    padding-bottom: 27px;
+  }
+  .watch-online__btn {
+    width: 285px;
+  }
+  .watch-online__vector {
+    padding-left: 20px;
+  }
+
+  .about{
+    height: 100%;
+    padding: 387px 0px 100px ;
+  }
+  .about__welcom{
+    flex-direction: column-reverse;
+    align-items: baseline;
+  }
+  .about__welcom-image{
+    width: 640px;
+    height: 438px;
+    padding-bottom: 30px;
+  }
+  .about__welcom-image img{
+    width: 640px;
+    height: 438px;
+  }
+  .about__welcom{
+    width: 523px;
+    padding-bottom: 48px;
+  }
+  .about__welcom-text{
+    padding: 0 21px;
+  }
+  .about__welcom-text h5{
+    padding-bottom: 30px;
+  }
+  .about__welcom-text p {
+    width: 600px;
+    height: auto;
+  }
+  .about__work{
+    height: auto;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  .about__work-image{
+    width: 640px;
+    height: 425px;
+    padding-bottom: 8px;
+  }
+  .about__work-image img{
+    width: 100%;
+    height: 100%;
+  }
+  .about__work-text{
+    margin: 0 20px;
+  }
+  .about__work-text h5{
+    padding-bottom: 32px;
+  }
+  .about__work-text p{
+    width: 600px;
+    height: auto;
+  }
+
+  .donation{
+    height: auto;
+    padding: 50px 20px;
+    display: block;
+    text-align: -webkit-center;
+  }
+  .donation__quick{
+    width: 363px;
+  }
+  .donation__text{
+    padding-bottom: 27px;
+  }
+  .donation__text h5{
+    width: 565px;
+    padding-bottom: 30px;
+  }
+  .donation__text p {
+    width: 600px;
+  }
+  .quick-form{
+    height: 75px;
+    width: 367px;
+  }
+  .quick-form__input{
+    padding-left: 0;
+    text-align: center;
+    height: 70px;
+    width: 308px;
+  }
+  .quick-form__btn{
+    height: 74px;
+  }
+  .quick-form::after {
+    left: 37px;
+    top: 27px;
+  }
+  .meet-friends {
+    margin-top: 100px;
+  }
+  .meet-friends__text{
+    padding: 0 20px 50px;
+    width: 600px;
+    text-align: -webkit-center;
+
+  }
+  .meet-friends__text h5{
+    width: 394px;
+    padding-bottom: 29px;
+  }
+  .meet-friends__btns {
+    display: none;
+  }
+  .slides{
+    margin: 0 20px 50px;
+    flex-wrap: nowrap;
+  }
+  .slide-animal{
+    width: 290px;
+    height: 600px;
+    margin: 0 20px 0 0;
+  }
+  .slide-animal__img {
+    width: 290px;
+    height: 333px;
+    object-fit: cover;
+  }
+  .slide-animal__name{
+    padding: 12px 20px;
+    border-bottom-right-radius: 5px;
+  }
+  .slide-animal__about{
+    margin: 15px auto 0;
+    width: 237px;
+  }
+  .slide-animal__about h6{
+    padding-bottom: 11px;
+  }
+  .slide-animal__btn{
+    bottom: 11px;
+    left: 42px;
+    padding-left: 0;
+  }
+  .slide-animal__order-lion{
+    order: -1;
+  }
+  .slide-animal__order-koala{
+    order: -2;
+  }
+  .favorite-animal {
+    width: 640px;
+  }
+  .choose-animal{
+    width: 345px;
+  }
+  .feed-animals{
+    margin: 100px 0px 0;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  .feed-animal__variant{
+    margin-bottom: 44px;
+  }
+  .feed-animals__heading{
+    margin-left: 100px;
+    margin-bottom: 47px;
+  }
+  .number-variant{
+    margin: 0 20px;
+  }
+  .variant-line{
+    width: 563px;
+  }
+  .feed-animal__container{
+    margin-top: 53px;
+    display: block;
+  }
+  .feed-animals__picture {
+    padding-right: 0;
+    width: 640px;
+    height: 417px;
+  }
+  .feed-animals__img {
+    width: 100%;
+    height: 100%;
+  }
+  .variant__text-container{
+    padding-top: 49px;
+    text-align: center;
+  }
+  .variant__heading{
+    width: 640px;
+    padding-bottom: 33px;
+  }
+  .variant__text{
+    width: 600px;
+    margin-left: 21px;
+  }
+  .feed-animal__variant:last-of-type .variant__text {
+    margin-bottom: 53px;
+  }
+  .variant__btn{
+    margin-left: 0;
+    margin-left: 175px;
+    width: 295px;
+    height: 76px;
+    padding-left: 67px;
+  }
+
+  .feedback-wrapper{
+    padding-top: 58px;
+  }
+  .feedback{
+    background: linear-gradient(177.34deg, #20113d 7.26%, rgba(32, 17, 61, 0) 103.89%), 
+                linear-gradient(144.77deg, #20113d 27.53%, rgba(32, 17, 61, 0) 46.43%), 
+                url(../../../online-zoo/assests/images/panda-feedback.png);
+    padding-bottom: 750px;
+    padding-left: 20px;
+    background-position-y: bottom;
+    background-size: 209%;
+    background-position-y: 137%;
+    background-position-x: -4%;
+    background-repeat: no-repeat;
+  }
+  .feedback__users{
+    display: block;
+    margin-bottom: 19px;
+  }
+  .feedback-text{
+    width: 577px;
+    margin-bottom: 52px;
+  }
+  .feedback-text h4{
+    padding-bottom: 30px;
+  }
+  .feedback-text p{
+    width: 577px;
+  }
+  .feedback-users__cards{
+    overflow: hidden;
+    width: 620px;
+  }
+  .cards{
+    flex-wrap: nowrap;
+    width: 2170px;
+  }
+  .user-card{
+    width: 523px;
+    height: 371px;
+    padding: 50px 30px;
+    margin: 0 20px 0px 0;
+  }
+  .card__quoters{
+    left: 25px;
+  }
+  .user__date{
+    width: 226px;
+    margin-left: 159px;
+    padding-bottom: 29px;
+  }
+  .user__feedback{
+    width: 463px;
+    text-align: center;
+    margin-bottom: 41px;
+  }
+  .user__name{
+    align-self: center;
+  }
+  .feedback-buttons{
+    display: none;
+  }
+  .leave-feedback {
+    width: 369px;
+  }
+  .leave-feedback__vector{
+    padding-left: 20px;
+  }
+  .care {
+    padding: 80px 0 0 ;
+    height: auto;
+    margin-bottom: 101px;
+  }
+  .care__heading{
+    width: 600px;
+    padding-bottom: 30px;
+  }
+  .care__text{
+    width: 600px;
+    padding-bottom: 68px;
+  }
+  .care-cards{
+    width: 640px;
+    margin: 0 22px 50px ;
+  }
+  .care__card{
+    width: 600px;
+    height: 297px;
+    border-radius: 5px;
+    margin-bottom: 0;
+    display: none;
+  }
+  .care-card__img{
+    height: 100%;
+    width: 300px;
+    object-fit: cover;
+  }
+  .care-card__active{
+    display: flex;
+  }
+  .unique-card{
+    display: none;
+  }
+  .care-card__text{
+    width: 260px;
+    padding: 66px 20px 0;
+  }
+  .care-card__button{
+    bottom: 33px;
+    right: 77px;
+  }
+  .care__elipses{
+    height: 8px;
+    margin: 0 278px;
+    display: flex;
+    width: 109px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .care__elipse-svg{
+    fill: white;
+    stroke: black;
+  }
+  .care__elipse-active{
+    fill: black;
+    stroke: black;
+  }
+  .care__favorite-animal{
+    margin-bottom: 101px;
+  }
+  .care-button{
+    width: 357px;
+    margin-left: 7px;
+  }
+  .care-image{
+    width: 640px;
+    height: 379px;
+  }
+  .care-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .footer{
+    padding: 0 0;
+    height: auto;
+  }
+  .footer-info{
+    display: block;
+    padding: 50px 0;
+    height: auto;
+  }
+  .footer-logos{
+    margin: 0 auto 50px;
+  }
+  .footer-navigation{
+    width: 446px;
+    margin: 0 auto 42px;
+  }
+  .footer-btn__donate{
+    margin: 0 auto; 
+  }
+  .footer-copyright {
+    padding-top: 50px;
+    flex-wrap: wrap-reverse;
+  }
+  .footer__social-media {
+    width: 220px;
+    margin: 0 auto 30px;
+  }
+  .copyright{
+    width: 448px;
+    margin: 0 auto 50px;
+  }
+}
+
+@media screen and (max-width: 639px) and (min-width:320px){
+  .container{
+    width: 320px;
+  }
+  .header{
+    padding: 30px 20px;
+  }
+  #header-toggle{
+    display: none;
+  }
+  .nav{
+    display: none;
+  }
+  .social-media{
+    display: none;
+  }
+  .header-menu{
+    display: block;
+    margin-right: 12px;
+    margin-top: 1px;
+  }
+
+  .watch-online{
+    background-color: #fff;
+    width: 320px;
+    height: 100%;
+    padding: 20px 10px 278px;
+    bottom: 0;
+    right: 0;
+    background: url(../../../online-zoo/assests/images/watch-online__320.png);
+    background-size: contain;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+  }
+  .watch-online__text{
+    width: 300px;
+  }
+  .watch-online__heading{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    padding-bottom: 11px;
+  }
+  .watch-online__paragraph{
+    width: 299px;
+    height: auto;
+    padding-bottom: 27px;
+  }
+  .watch-online__btn{
+    width: 300px;
+    height: 45px;
+  }
+  .about{
+    height: auto;
+    padding: 50px 0 49px;
+  }
+  .about__welcom{
+    flex-direction: column-reverse;
+    height: auto;
+    padding-bottom: 44px;
+  }
+  .about__welcom-image{
+    width: 320px;
+    height: 218px;
+    padding-bottom: 30px;
+  }
+  .about__welcom-image img{
+    width: 320px;
+    height: 218px;
+  }
+  .about__welcom-text h5{
+    width: 300px;
+    height: auto;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 25px;
+  }
+  .about__welcom-text p{
+    width: 300px;
+    height: auto;
+  }
+  .about-welcom__none{
+    display: none;
+  }
+  .about__work{
+    height: auto;
+    flex-direction: column;
+  }
+  .about__work-image{
+    width: 320px;
+    height: 213px;
+    padding-bottom: 10px;
+  }
+  .about__work-image img{
+    width: 320px;
+    height: 213px;
+  }
+  .about__work-text h5{
+    width: 300px;
+    height: auto;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 25px;
+  }
+  .about__work-text p{
+    width: 300px;
+    height: auto;
+  }
+  .about-wokr__none{
+    display: none;
+  }
+
+  .donation {
+    height: auto;
+    padding: 30px 10px 40px;
+    display: block;
+  }
+  .donation__quick {
+    width: 300px;
+  }
+  .donation__text{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .donation__text h5 {
+    width: 300px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 26px;
+  }
+  .donation__text p {
+    width: 300px;
+  }
+  .quick-text {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .quick-form {
+    height: 45px;
+  }
+  .quick-form::after {
+    left: 26px;
+    top: 12px;
+  }
+  .quick-form__input {
+    position: relative;
+    padding-left: 30px;
+    width: 300px;
+    height: 41px;
+    padding-left: 42px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .quick-form__btn{
+    height: 45px;
+    width: 74px;
+  }
+
+  .meet-friends{
+    margin-top: 50px;
+  }
+  .meet-friends__text{
+    padding-left: 0;
+    width: 320px;
+    padding-bottom: 24px;
+  }
+  .meet-friends__text h5 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 30px;
+  }
+  .meet-friends__text p {
+    padding-left: 7px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .meet-friends__btns{
+    display: none;
+  }
+  .slides {
+    margin: 0;
+    flex-direction: row-reverse;
+    height: 603px;
+  }
+  .slide-animal{
+    margin: 0 10px;
+    width: 300px;
+    height: 600px;
+  }
+  .slide-animal__img {
+    width: 300px;
+    height: 335px;
+  }
+  .slide-animal__name{
+    display: block;
+    height: 57px;
+  }
+  .slide-animal__about {
+    width: 237px;
+    margin: 12px auto 0;
+  }
+  .slide-animal__about h6{
+    padding-bottom: 10px;
+  }
+  .slide-animal__btn{
+    bottom: 12px;
+    left: 41px;
+  }
+  .slide-animal__order-koala{
+    order: 0;
+  }
+  .favorite-animal{
+    display: none;
+  }
+  .feed-animals__wrapper{
+    margin-top: 60px;
+  }
+  .feed-animals {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .feed-animals__heading{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 66px;
+    text-align: center;
+    margin-bottom: 43px;
+  }
+  .feed-animal__variant {
+    margin-bottom: 46px;
+  }
+  .feed-animal__container {
+    display: block;
+    margin-top: 30px;
+  }
+  .variant-line{
+    width: 273px;
+  }
+  .number-variant__text{
+    padding-left: 10px;
+  }
+  .feed-animals__picture {
+    padding-right: 0;
+  }
+  .feed-animals__img {
+    width: 320px;
+    height: 208px;
+  }
+  .variant__text-container {
+    padding-top: 29px;
+  }
+  .variant__logo {
+    padding-bottom: 30px;
+    margin-left: 108px;
+    width: 104px;
+  }
+  .variant__heading{
+    width: 300px;
+    text-align: center;
+    padding: 0 10px 32px;
+  }
+  .variant__text{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .variant__text-2{
+    width: 280px;
+  }
+  .text-none{
+    display: none;
+  }
+  .variant__btn{
+    margin: 0 auto;
+    width: 300px;
+    height: 45px;
+    padding-left: 69px;
+  }
+  .feed-animal__variant:last-of-type .variant__text {
+    margin-bottom: 40px;
+  }
+
+  .feedback-wrapper {
+    padding: 40px 0 0;
+  }
+  .feedback{
+    padding: 0;
+    background: linear-gradient(180deg, #20113D 18.43%, #20113D 69.66%, rgba(32, 17, 61, 0) 82.59%),
+                url(../../../online-zoo/assests/images/panda-feedback.png) ;
+    padding-bottom: 450px;
+    background-size: 191%;
+    background-repeat: no-repeat;
+    background-position-x: -1%;
+    background-position-y: 105%;
+  } 
+  .feedback__users{
+    display: block;
+    margin-bottom: 50px;
+  }
+  .feedback-text{
+    padding: 0 10px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  .feedback-text h4{
+    height: auto;
+    width: 300px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    padding-bottom: 23px;
+  }
+  .feedback-text p{
+    margin-left: 9px;
+    width: 291px;
+    height: auto;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .feedback-users__cards{
+      overflow: hidden;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    width: 1290px;
+  }
+  .user-card{
+    width: 300px;
+    height: 549px;
+    padding: 116px 20px 0;
+    margin: 0 10px 0 ;
+    text-align: center;
+  }
+  .card__quoters {
+    left: 21px;
+  }
+  .user__name{
+    margin-bottom: 50px;
+  }
+  .feedback__elipses{
+    display: flex;
+    width: 109px;
+    height: 8px;
+    margin: 0px 118px;
+    justify-content: space-between;
+  }
+  .feedback__elipse-svg{
+    fill: none;
+    stroke: white;
+  }
+  .feedback__elipse-active{
+    fill: #fff;
+    stroke: white;
+  }
+  .feedback-buttons{
+    display: none;
+  }
+  .leave-feedback {
+    width: 299px;
+    height: 46px;
+    padding-left: 50px;
+    margin: 0 auto;
+  }
+
+  .care {
+    padding: 50px 0 0 ;
+    height: auto;
+    margin-bottom: 78px;
+    overflow: hidden;
+  }
+  .care__heading {
+    width: 305px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    padding: 0 10px 27px;
+  }
+  .care__text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    width: 267px;
+    padding-bottom: 26px;
+  }
+  .care-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 29px;
+    padding: 0 10px;  
+  }
+  .care__card{
+    width: 300px;
+    height: 570px;
+    margin:  0 10px 0 0;
+  }
+  .unique-card{
+    display: none;
+  }
+  .care-card__img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+  .care-card__text {
+    padding: 17px 28px 0;
+  }
+  .care-card__button {
+    right: 77px;
+    bottom: 21px;
+  }
+  .care__elipses{
+    display: flex;
+    width: 111px;
+    height: 8px;
+    margin: 0px 115px;
+    justify-content: space-between;
+    margin-bottom: 51px;
+  }
+  .care__elipse-svg{
+    fill: none;
+    stroke: black;
+  }
+  .care__elipse-active{
+    fill: black;
+    stroke: black;
+  } 
+  .care__favorite-animal{
+    margin-bottom: 82px;
+  }
+  .care-button{
+    height: 43px;
+    width: 302px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    padding-left: 31px;
+  }
+  .care-image {
+    width: 320px;
+    height: 189px;
+  }
+  .footer {
+    padding: 0 0 50px;
+    height: auto;
+    position: relative;
+  }
+  .footer-info{
+    height: auto;
+    display: block;
+    padding: 50px 0 101px;
+  }
+  .footer-logos {
+    width: auto;
+    align-items: center;
+    height: 212px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  .footer-navigation{
+    width: 300px;
+    margin: 0 auto 28px;
+  }
+  .footer-nav__link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer-btn__donate {
+    width: 300px;
+    height: 46px;
+    line-height: 27px;
+    text-transform: none;
+    padding-left: 34px;
+    margin: 0 auto;
+  }
+  .footer-copyright{
+    padding-top: 32px;
+    display: block;
+  }
+  .copyright{
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    height: 141px;
+    justify-content: space-between;
+  }
+  .footer__social-media {
+    width: 220px;
+    position: absolute;
+    top: 420px;
+    left: 51px;
+  }
+}

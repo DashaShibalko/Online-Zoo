@@ -1,0 +1,309 @@
+@orange: #f58021;
+@black: #000;
+@blue: #20113d;
+@white: #fff;
+@sea: #00a092;
+@brown: #d26004;
+
+.none{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+
+.container{
+  width: 1920px;
+  margin: 0 auto;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background-color: @white;
+  color: @black;
+
+}
+
+.header{
+  position: relative;
+  z-index: 2;
+  height: 110px;
+  box-sizing: border-box;
+  padding: 30px 260px;
+  background-color: @orange;
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.online-zoo{
+  position:absolute;
+  display: none;
+}
+.logo{
+  height: 96px;
+}
+
+.nav-wrapper{
+display: flex;
+}
+
+.nav{
+  width: 556px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: @black;
+  text-transform: uppercase;
+  margin-right: 65px;
+}
+.nav__link{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;  
+  color: @black;
+  text-decoration: none;
+}
+.nav__link:active,
+.nav__link:visited{
+  color: @black;
+}
+.nav-link:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.nav-link__active{
+  color: @sea;
+}
+.nav-link__active:active,
+.nav-link__active:visited,
+.nav-link__active:hover{
+  color: @sea;
+  cursor: default;
+}
+.social-media{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media__item:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.map{
+
+  width: 1406px;
+  margin: 0 auto 150px;
+}
+.map__heading{
+  width: 601px;
+  height: 131px;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  color: @blue;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+.animals-map{
+  position: relative;
+  width: 1460px;
+  height: 912px;
+  background-repeat: no-repeat;
+  background-image: url("../../../online-zoo/assests/icons/Map.svg");
+}
+
+.map__drops{
+  width: 100px;
+  height: 144px;
+}
+.panda{
+  position: absolute;
+  top: 359px;
+  left: 957px;
+}
+.lemur{
+  position: absolute;
+  left: 796px;
+  top: 609px;
+}
+.gorilla{
+  position: absolute;
+  top: 489px;
+  left: 694px;
+}
+.eagle{
+  position: absolute;
+  left: 168px;
+  top: 405px;
+}
+.tiger{
+  position: absolute;
+  top: 521px;
+  left: 1014px;
+}
+.alligator{
+  position: absolute;
+  top: 418px;
+  left: 293px;
+}
+.lion{
+  position: absolute;
+  top: 466px;
+  left: 579px;
+}
+.koala{
+  position: absolute;
+  top: 634px;
+  left: 1147px;
+}
+
+.map-animal{
+  position: absolute;
+  right: 28px;
+  top: 15px;
+  width: 59px;
+  height: 44px;
+}
+.map-drops:hover{ 
+  .drop{
+    fill: @white;
+  }
+  .bord{
+    visibility: visible;
+  }
+}
+.drop{
+  width: 100px;
+  height: 144px;
+  fill: @orange;
+  filter: drop-shadow(0px 4px 30px  @orange);
+}
+.bord{
+  position: absolute;
+  width: 130px;
+  height: 169px;
+  top: -35px;
+  left: -40px;  
+  visibility: hidden;
+  fill: transparent;
+}
+
+
+.footer{
+  padding: 0 260px;
+  height: 329px;
+  background-color: @blue;
+}
+.footer-info{
+  align-items: center;
+  height: 50px;
+  padding: 82px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid @white;
+}
+.footer-logos{
+  width: 445px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo__online{
+  background-image: url("../../../online-zoo/assests/icons/Logologo__white.svg");
+  width: 96px;
+  height: 50px;
+}
+.footer-logo__online a{
+  display: inline-block;
+  width: 96px;
+  height: 50px;
+}
+.footer-logo__yem{
+  background-image: url("../../../online-zoo/assests/icons/Yem\ Digital.svg");
+  width: 50px;
+  height: 50px;
+}
+.footer-logo__rsschool{
+  background-image: url("../../../online-zoo/assests/icons/rs_school_js\ logo.svg");
+  background-repeat: no-repeat;
+  width: 138px;
+  height: 52px;
+}
+.footer-navigation{
+  width: 426px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -30px;
+}
+
+.footer-nav__link{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  color: @white;
+  text-transform: uppercase;
+}
+.footer-nav__link:hover{
+  opacity: 0.7;
+}
+.footer-nav__link:active{
+  color: @white;
+}
+.footer-nav__link:visited{
+  color: @white;
+}
+.footer_btn{
+  align-self: center;
+}
+.footer-btn__donate{
+  width: 359px;
+  height: 74px;
+  background: none;
+  border: 1px solid @white;
+  border-radius: 5px;
+  color: @white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center ;
+  padding-left: 33px;
+}
+.footer__vector{
+  height: 24px;
+  width: 27px;
+  padding-left: 20px;
+  fill: @white;
+}
+.footer-btn__donate:hover,
+.footer-btn__donate:active{
+  cursor: pointer;
+  background-color: #00a092;
+}
+.footer-copyright{
+  padding-top: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright{
+  width: 448px;
+  display: flex;
+  justify-content: space-between;
+  color: @white;
+  font-size: 18px;
+  line-height: 27px;
+}
+.copyright__title:hover{
+  cursor: default;
+}
+.footer__social-media{
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
