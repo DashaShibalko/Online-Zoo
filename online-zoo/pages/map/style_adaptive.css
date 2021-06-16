@@ -1,0 +1,401 @@
+@media screen and (max-width: 1919px) and (min-width: 1200px){
+
+  .header{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: #f58021;
+  }
+  .header-container{
+    width: 1200px;
+    padding: 30px 100px;
+    margin: 0 auto 30px;
+  }
+  .nav{
+    width: 481px;
+    margin-right: 80px;
+  }
+  .social-media{
+    align-items: center;
+  }
+  .map{
+    width: 1198px;
+    margin: 0 auto 99px;
+  }
+  .map__heading{
+    width: 595px;
+    height: 119px;
+    margin-bottom: 30px;
+  }
+  .animals-map{
+    width: 100%;
+    height: 777px;
+    background-size: contain;
+    overflow: hidden;
+  }
+  .panda{
+    position: absolute;
+    top: 264px;
+    left: 861px;
+  }
+  .lemur{
+    position: absolute;
+    left: 679px;
+    top: 500px;
+  }
+  .gorilla{
+    position: absolute;
+    top: 397px;
+    left: 589px;
+
+  }
+  .eagle{
+    position: absolute;
+    left: 135px;
+    top: 321px;
+  }
+  .tiger{
+    position: absolute;
+    top: 436px;
+    left: 863px;
+  }
+  .alligator{
+    position: absolute;
+    top: 345px;
+    left: 253px;
+  }
+  .lion{
+    position: absolute;
+    top: 370px;
+    left: 488px;
+  }
+  .koala{
+    position: absolute;
+    top: 522px;
+    left: 977px;
+  }
+  
+  .footer {
+    margin: 0 auto;
+    background-color: #20113d;
+  }
+  .footer-container{
+    width: 1200px;
+    padding: 1px 38px 45px;
+    box-sizing: border-box;
+  }
+  .footer-logos {
+    width: 343px;
+  }
+  .footer-navigation {
+    width: 346px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 640px){
+  .header{
+    height: 110px;
+    position: fixed;
+    background-color: #f58021;
+    width: 100%;
+    z-index: 1;
+  }
+  .header-container{
+    width: 640px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    margin-bottom: 32px;  
+  }
+  .nav{
+    display: none;
+  }
+  .social-media{
+    display: none;
+  }
+  .header-menu{
+    display: block;
+    margin-right: 29px;
+    margin-top: 1px;
+  }
+  .bord {
+    width: 86px;
+    height: 65px;
+    top: -12px;
+    left: -21px;
+  }
+  .map {
+    padding-top: 142px;
+    width: 640px;
+    margin: 0 auto 100px;
+  }
+  .map__heading {
+    width: 600px;
+    height: 121px;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    margin-bottom: 48px;
+  }
+  .animals-map{
+    width: 640px;
+    height: 415px;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .map-animal {
+    position: absolute;
+    right: 10px;
+    top: 36px;
+    width: 25px;
+    height: 30px;
+  }
+  .map-drops{
+    width: 42px;
+    height: 60px;
+  }
+  .drop{
+    width: 78px;
+    height: 144px;
+  }
+  .lion{
+    top: 181px;
+    left: 267px;
+  }
+  .panda {
+    top: 127px;
+    left: 463px;
+  }
+  .lemur {
+    left: 364px;
+    top: 246px;
+  }
+  .gorilla {
+    top: 191px;
+    left: 315px;
+  }
+  .eagle {
+    left: 74px;
+    top: 144px;
+  }
+  .tiger {
+    top: 215px;
+    left: 465px;
+  }
+  .alligator {
+    top: 159px;
+    left: 135px;
+  }
+  .koala {
+    top: 255px;
+    left: 511px;
+  }
+  .bord {
+    width: 86px;
+    height: 82px;
+    top: 16px;
+    left: -21px;
+}
+
+  
+  .footer{
+    height: auto;
+    background-color: #20113d;
+  }
+  .footer-container{
+    padding: 0 0;
+    width: 640px;
+  }
+  .footer-info{
+    display: block;
+    padding: 50px 0;
+    height: auto;
+  }
+  .footer-logos{
+    margin: 0 auto 50px;
+    width: 445px;
+  }
+  .footer-navigation{
+    width: 446px;
+    margin: 0 auto 42px;
+  }
+  .footer-btn__donate{
+    margin: 0 auto; 
+  }
+  .footer-copyright {
+    padding-top: 50px;
+    flex-wrap: wrap-reverse;
+  }
+  .footer__social-media {
+    width: 220px;
+    margin: 0 auto 32px;
+  }
+  .copyright{
+    width: 448px;
+    margin: 0 auto 50px;
+  }
+}
+
+@media screen and (max-width: 639px) and (min-width: 320px){
+  .header{
+    background-color: #f58021;
+    width: 100%;
+  }
+  .header-container{
+    width: 320px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    margin-bottom: 21px;  
+  }
+  #header-toggle{
+    display: none;
+  }
+  .nav{
+    display: none;
+  }
+  .social-media{
+    display: none;
+  }
+  .header-menu{
+    display: block;
+    margin-right: 19px;
+    margin-top: 4px;
+    width: 21px;
+  }
+  .bord {
+    width: 44px;
+    height: 65px;
+    top: -12px;
+    left: -9px;
+  }
+  .map {
+    width: 320px;
+    margin: 0 auto 53px;
+  }
+  .map__heading {
+    width:  301px;
+    height: auto;
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 19px;
+  }
+  .animals-map{
+    width: 320px;
+    height: 234px;
+    background-size: cover;
+    background-position-x: 53%;
+    overflow: hidden;
+  }
+  .map-animal {
+    position: absolute;
+    right: 18px;
+    top: 11px;
+    width: 23px;
+    height: 19px;
+  }
+  .map-drops{
+    width: 42px;
+    height: 60px;
+    overflow: hidden;
+  }
+  .drop {
+    width: 53px;
+    height: 66px;
+    filter: none;
+  }
+  .lion{
+    top: 107px;
+    left: 127px;
+  }
+  .panda {
+    top: 86px;
+    left: 220px;
+  }
+  .lemur {
+    left: 178px;
+    top: 151px;
+  }
+  .gorilla {
+    top: 126px;
+    left: 152px;
+  }
+  .eagle {
+    left: 15px;
+    top: 85px;
+  }
+  .tiger {
+    top: 132px;
+    left: 239px;
+  }
+  .alligator {
+    top: 102px;
+    left: 53px;
+  }
+  .koala {
+    top: 160px;
+    left: 267px;
+  }
+
+  
+
+  .footer-container{
+    padding: 0 0;
+    width: 320px;
+  }
+  .footer {
+    height: auto;
+    background-color: #20113d;
+    padding: 0 0 50px;
+    height: auto;
+    position: relative;
+  }
+  .footer-info{
+    height: auto;
+    display: block;
+    padding: 50px 0 101px;
+  }
+  .footer-logos {
+    width: auto;
+    align-items: center;
+    height: 212px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  .footer-navigation{
+    width: 300px;
+    margin: 0 auto 28px;
+  }
+  .footer-nav__link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer-btn__donate {
+    width: 300px;
+    height: 46px;
+    line-height: 27px;
+    text-transform: none;
+    padding-left: 34px;
+    margin: 0 auto;
+  }
+  .footer-copyright{
+    padding-top: 32px;
+    display: block;
+  }
+  .copyright{
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    height: 141px;
+    justify-content: space-between;
+  }
+  .footer__social-media {
+    width: 220px;
+    position: absolute;
+    top: 420px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
