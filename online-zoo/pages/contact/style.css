@@ -1,0 +1,307 @@
+.none {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #fff;
+  color: #000;
+}
+.header-menu{
+  display: none;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../../online-zoo/assests/icons/hamburger.svg");
+  align-self: center;
+}
+.header {
+  background-color: #f58021;
+  margin: 0 auto;
+  width: 1920px;
+}
+.header-container{
+  position: relative;
+  z-index: 2;
+  height: 110px;
+  box-sizing: border-box;
+  padding: 30px 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.online-zoo {
+  position: absolute;
+  display: none;
+}
+.logo {
+  height: 96px;
+}
+.nav-wrapper {
+  display: flex;
+}
+.nav {
+  width: 556px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  text-transform: uppercase;
+  margin-right: 65px;
+}
+.nav__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000;
+  text-decoration: none;
+}
+.nav__link:active,
+.nav__link:visited {
+  color: #000;
+}
+.nav-link:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.nav-link__active {
+  color: #00a092;
+}
+.nav-link__active:active,
+.nav-link__active:visited,
+.nav-link__active:hover {
+  color: #00a092;
+  cursor: default;
+}
+.social-media {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-media a {
+  width: 40px;
+  height: 40px;
+}
+.social-media__item:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.get-touch {
+  height: 1874px;
+  margin: 0 260px;
+}
+.get-touch__img {
+  height: 815px;
+  margin-bottom: 150px;
+  background: linear-gradient(140.25deg, #FFFFFF 5.02%, rgba(255, 255, 255, 0) 8.83%), url("../../../online-zoo/assests/images/Touch\ the\ animal\ 1.png");
+}
+.get-touch__containter {
+  display: flex;
+  justify-content: space-between;
+}
+.get-touch__text {
+  width: 545px;
+}
+.get-touch__heading {
+  width: 405px;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  color: #00a092;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+.get-touch__paragraph {
+  font-size: 18px;
+  line-height: 27px;
+}
+.get-touch__form {
+  width: 680px;
+}
+.form__text {
+  font-size: 18px;
+  line-height: 27px;
+}
+#name,
+#email,
+#subject {
+  margin-top: 10px;
+  width: 680px;
+  height: 60px;
+  margin-bottom: 28px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#message {
+  margin-top: 10px;
+  width: 680px;
+  height: 200px;
+  margin-bottom: 56px;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 27px;
+  box-sizing: border-box;
+}
+#name::-webkit-input-placeholder,
+#email::-webkit-input-placeholder,
+#subject::-webkit-input-placeholder {
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.form__text:before {
+  content: "* ";
+  color: #00a092;
+}
+.btn-container {
+  position: relative;
+  width: 359px;
+  height: 74px;
+  display: flex;
+}
+#button {
+  position: relative;
+  width: 359px;
+  height: 74px;
+  background-color: #00a092;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.vector {
+  position: absolute;
+  padding-left: 5px;
+  fill: #fff;
+  width: 27px;
+  height: 24px;
+  left: 247px;
+  top: 25px;
+}
+#button:hover {
+  background-color: #05786E;
+}
+.footer {
+  padding: 0 260px;
+  height: 329px;
+  background-color: #20113d;
+}
+.footer-info {
+  align-items: center;
+  height: 50px;
+  padding: 82px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+}
+.footer-logos {
+  width: 445px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo__online {
+  background-image: url("../../../online-zoo/assests/icons/Logologo__white.svg");
+  width: 96px;
+  height: 50px;
+}
+.footer-logo__online a {
+  display: inline-block;
+  width: 96px;
+  height: 50px;
+}
+.footer-logo__yem {
+  background-image: url("../../../online-zoo/assests/icons/Yem\ Digital.svg");
+  width: 50px;
+  height: 50px;
+}
+.footer-logo__rsschool {
+  background-image: url("../../../online-zoo/assests/icons/rs_school_js\ logo.svg");
+  background-repeat: no-repeat;
+  width: 138px;
+  height: 52px;
+}
+.footer-navigation {
+  width: 426px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -30px;
+}
+.footer-nav__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer-nav__link:hover {
+  opacity: 0.7;
+}
+.footer-nav__link:active {
+  color: #fff;
+}
+.footer-nav__link:visited {
+  color: #fff;
+}
+.footer_btn {
+  align-self: center;
+}
+.footer-btn__donate {
+  width: 359px;
+  height: 74px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center ;
+  padding-left: 33px;
+}
+.footer__vector {
+  height: 24px;
+  width: 27px;
+  padding-left: 20px;
+  fill: #fff;
+}
+.footer-btn__donate:hover,
+.footer-btn__donate:active {
+  cursor: pointer;
+  background-color: #00a092;
+}
+.footer-copyright {
+  padding-top: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  width: 448px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+}
+.copyright__title:hover {
+  cursor: default;
+}
+.footer__social-media {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
